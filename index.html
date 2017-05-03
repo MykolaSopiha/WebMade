@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Mykola Sopiha">
+	<meta http-equiv="reply-to" content="sopiha.mv@yandex.ru">
+	<meta name="description" content="WebMade Test Work">
+	<meta name="keywords" content="WebMade, HTML, CSS"> 
+	<meta name="date" content="April 28 2017">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<title>WebMade</title>
+	<!-- waiting for favicon... -->
+	<!-- <link href="" rel="shortcut icon" type="image/x-icon"> -->
+	
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Serif" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	<!-- FM.Revealator -->
+	<link rel="stylesheet" type="text/css" href="css/fm.revealator.jquery.min.css">
+	<!-- Custome styles -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+</head>
+<body>
+	<header class="parallax" role="banner">
+		<div class="container">
+			<div class="navigation clearfix"> 
+				<div class="logo"><a href="#">agency</a></div>
+				<nav class="nav right">
+					<ul>
+						<li class="current"><a href="#">Home</a></li>
+						<li><a class="go_to" href="#story">About</a></li>
+						<li><a class="go_to" href="#services">Services</a></li>
+						<li><a class="go_to" href="#gallery">Gallery</a></li>
+						<li><a class="go_to" href=".request-form">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header-title clearfix">
+				<div class="header-text">
+					<h1><span class="point">TRUSTED</span>  BY EVERY1</h1>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 	standard dummy text ever since the 1500s</p>
+				</div>
+				<div class="request-form">
+					<p>request a quote</p>
+					<form class="customerData" id="customerData">
+						<div class="form-group">
+							<input class="form-control" type="text" placeholder="Full Name" required>
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="email" placeholder="Email Adress" required>
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="tel" placeholder="Phone Number" required>
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="text" placeholder="Country" required>
+						</div>
+						<div class="form-group">
+							<input id="accept-checkbox" type="checkbox" name="acception" value="accept" required>
+							<label for="accept-checkbox">I accept the terms & conditions</label>
+						</div>
+						<input type="button" class="form-control" value="SEND" id="btn-send">
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main  role="main">
+
+		<section id="services" class="revealator-fade revealator-delay1 revealator-once">
+			<h2><span class="point">Our</span> Services</h2>
+			<div class="collections">
+			<div class="collection-outher">
+				<div class="collection-item">
+					<p><img src="images/heart.png" alt="tools sign"></p>
+					<p>Making your trip beautiful and easier</p>
+				</div>
+				<div class="collection-item">
+					<p><img src="images/tools.png" alt="tools sign"></p>
+					<p>Tools to help you succeed tommorow</p>
+				</div>
+				<div class="collection-item">
+					<p><img src="images/lightbulb.png" alt="lightbulb sign"></p>
+					<p>Ideas that will blow you out the blue.</p>
+				</div>
+				<div class="collection-item">
+					<p><img src="images/compass.png" alt="compass sign"></p>
+					<p>Navigate your path to beautiful world.</p>
+				</div>
+			</div>
+			</div>
+		</section>
+
+		<section id="story" class="revealator-fade revealator-delay1 revealator-once">
+			<div class="container">
+				<p>We are in business for over 6 years providing amazing services to client and people love them to the core. View our story to know more.</p>
+				<p><button><a href="#">our story</a></button></p>
+			</div>
+		</section>
+
+		<section id="pricing" class="revealator-fade revealator-delay1 revealator-once">
+			<h2>pricing</h2>	
+			<div class="container">
+				<div class="price-block">
+					<h3>Starter</h3>
+					<p class="price">free</p>
+					<ul class="features">
+						<li>Free Services</li>
+						<li>Multiple Accounts</li>
+						<li>Management No</li>
+						<li>--</li>
+						<li>--</li>
+					</ul>
+					<input type="button" value="TRY" name="free-btn">
+				</div>
+				<div class="price-block popular">
+					<h3>Busines</h3>
+					<p class="price">$97</p>
+					<ul class="features">
+						<li>Free Services</li>
+						<li>Multiple Accounts</li>
+						<li>Management No</li>
+						<li>Unlimited Data</li>
+						<li>--</li>
+					</ul>
+					<input type="button" value="SING UP" name="bsn-btn">
+				</div>
+				<div class="price-block">
+					<h3>Professional</h3>
+					<p class="price">$297</p>
+					<ul class="features">
+						<li>Free Services</li>
+						<li>Multiple Accounts</li>
+						<li>Management No</li>
+						<li>Unlimited Data</li>
+						<li>Whatever You Need</li>
+					</ul>
+					<input type="button" value="SING UP" name="prof-btn">
+				</div>
+			</div>
+		</section>
+
+		<section id="testim-gallary" class="revealator-fade revealator-delay1 revealator-once">
+			<div class="container">
+				<div id="testimonial">
+					<h2>Testimonial</h2>
+					<div class="comments">
+						<div class="comment-item">
+							<div class="text">
+								<p class="comment-text">I have been involved with this comapny for ages and just want to say this is a great work by designcoon.</p>
+								<p class="comment-label">DJ Bravo - Frequent Travelera</p>
+							</div>
+							<div class="auth-photo">
+								<img src="images\users\user1.png" class="shadow" alt="comment author">
+							</div>
+						</div>
+						<div class="comment-item">
+							<div class="text">
+								<p class="comment-text">I have been involved with this comapny for ages and just .</p>
+								<p class="comment-label">DJ Bravo - Frequent Travelera</p>
+							</div>
+							<div class="auth-photo">
+								<img src="images\users\user2.png" class="shadow" alt="comment author">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="gallery">
+					<h2>Gallery</h2>
+					<ul id="photo">
+						<li><img class="shadow" src="images\gallery\GalleryPic1.png" alt="gallery photo"></li>
+						<li><img class="shadow" src="images\gallery\GalleryPic2.png" alt="gallery photo"></li>
+						<li><img class="shadow" src="images\gallery\GalleryPic3.png" alt="gallery photo"></li>
+						<li><img class="shadow" src="images\gallery\GalleryPic4.png" alt="gallery photo"></li>
+						<li><img class="shadow" src="images\gallery\GalleryPic5.png" alt="gallery photo"></li>
+						<li><img class="shadow" src="images\gallery\GalleryPic6.png" alt="gallery photo"></li>
+					</ul>
+					<a href="#" id="more-pics">view more pictures</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer role="contentinfo">
+		<div class="container">
+			<p class="copyrights">All Rights Reserved |  2016  |  Designed with love by <a href="#">DesignCoo</a></p>
+			<p class="logo">agency</p>
+		</div>
+	</footer>
+
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- FM.Revealator -->
+	<script type="text/javascript" src="js/fm.revealator.jquery.min.js"></script>
+	<!-- CUSTOME SCRIPTS -->
+	<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>
